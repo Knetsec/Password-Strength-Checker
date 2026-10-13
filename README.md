@@ -1,4 +1,6 @@
-*A Java desktop application that checks how strong a password really is — not just by length, but by entropy, character variety, and common password blacklisting.*
+**PASSWORD-STRENGTH-CHECKER**
+
+A Java desktop application that checks how strong a password really is — not just by length, but by entropy, character variety, and common password blacklisting.
 
 Built for simplicity: uses JOptionPane so anyone can run it without a console.
 ✨ What it does
@@ -9,7 +11,7 @@ Built for simplicity: uses JOptionPane so anyone can run it without a console.
     Enum-Based Levels — Clean StrengthLevel enum to avoid magic strings:
     VERY_WEAK, WEAK, FAIR, STRONG, VERY_STRONG
 
-*🧠 How Strength is Decided*
+**🧠 How Strength is Decided**
 
 enum StrengthLevel {
     VERY_WEAK,
@@ -41,7 +43,7 @@ Entropy	Level
     java.util.Set / Set<String>
     Java Enums
 
-*🚀 How to Run*
+**🚀 How to Run**
 
     Clone
 
@@ -51,7 +53,7 @@ git clone https://github.com/thatgentnuni/password-strength-checker.git
 
     Run - a dialog will pop up asking for a password.
 
-*📸 Demo*
+**📸 Demo**
 
 Input: password123
 > VERY_WEAK | Entropy: 28.5 bits | Reason: Found in common passwords list
@@ -62,13 +64,13 @@ Input: correct-horse-battery-staple!
 
 
 
-* Future Improvements*
+**Future Improvements**
 
     Add password generator
     Add show/hide toggle in dialog
     Export strength report
 
-*👤 Author*
+**👤 Author**
 
 Built by Keamohetsoe (kNetSec). — learning secure coding practices and GUI design in Java.
 📄 License
